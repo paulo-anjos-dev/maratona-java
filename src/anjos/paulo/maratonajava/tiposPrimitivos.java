@@ -35,6 +35,7 @@ public class tiposPrimitivos {
 
         // long  | 64 bits  | Número inteiro de -9 quintilhões a +9 quintilhões.
         long valorLong = 9000000000000000000L;
+        System.out.println(valorLong);
 
         // float | 32 bits  | Número decimal (ponto flutuante) de precisão simples.
         float valorFloat = 10.00F;
