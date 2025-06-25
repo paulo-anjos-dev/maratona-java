@@ -45,7 +45,7 @@ public class tiposPrimitivos {
         System.out.println(valorDouble);
 
         // char   | 16 bits | Representa um único caractere Unicode (letras, símbolos, etc.).
-        char valorChar = '\u2561';
+        char valorChar = 'M';
         System.out.println(valorChar);
 
         // boolean | 1 bit (teórico)  | Valores lógicos: true ou false.
