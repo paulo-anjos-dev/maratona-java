@@ -28,6 +28,37 @@ public class Operadores {
         System.out.printf("isDezMenorOuIgualAVinte = %b\n", isDezMenorOuIgualAVinte);
         System.out.printf("isDezMaiorOuIgualAVinte = %b\n", isDezMaiorOuIgualAVinte);
 
+        /**
+         * Classe que realiza operações lógicas booleanas: AND, OR e NOT.
+         *
+         * Tabela Verdade - AND (E lógico)
+         *
+         * | A     | B     | A && B |
+         * |-------|-------|--------|
+         * | true  | true  | true   |
+         * | true  | false | false  |
+         * | false | true  | false  |
+         * | false | false | false  |
+         *
+         *
+         * Tabela Verdade - OR (OU lógico)
+         *
+         * | A     | B     | A || B |
+         * |-------|-------|--------|
+         * | true  | true  | true   |
+         * | true  | false | true   |
+         * | false | true  | true   |
+         * | false | false | false  |
+         *
+         *
+         * Tabela Verdade - NOT (NÃO lógico)
+         *
+         * | A     | !A    |
+         * |-------|-------|
+         * | true  | false |
+         * | false | true  |
+         *
+         */
         // And( && ) Or ( || ) Not ( ! )
         boolean isDezMaiorQueVinteEDezMenorQueVinte = (10 > 20) && (10 < 20);
         boolean isDezMaiorQueVinteOuDezMenorQueVinte = (10 < 20) || (10 > 20);
