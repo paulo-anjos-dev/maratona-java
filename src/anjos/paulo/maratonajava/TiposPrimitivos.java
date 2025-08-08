@@ -1,7 +1,7 @@
 package anjos.paulo.maratonajava;
 
 public class TiposPrimitivos {
-    public static void main(TiposPrimitivosExercicio[] args) {
+    public static void main(String[] args) {
         /**
          * Tabela dos tipos primitivos
          * +-----------+----------------+--------------+-------------------------------------------------------------+
